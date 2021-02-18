@@ -3,7 +3,7 @@ import './App.css';
 import { NavbarComponent, ListCategories, Hasil, Menu } from './components';
 import { Row, Col } from 'reactstrap';
 import axios from 'axios'
-import { API_URL } from './utils/constants';
+import API_URL from './utils/constants';
 
 
 function App() {
